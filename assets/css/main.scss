@@ -58,8 +58,16 @@
     @include rfs(64);
 }
 
-.rfs-96 {
+.rfs-112 {
     @include rfs(112);
+}
+
+.rfs-128 {
+    @include rfs(128);
+}
+
+.rfs-144 {
+    @include rfs(144);
 }
 
 .opacity-quarter {
@@ -130,7 +138,7 @@
 }
 
 #about .portrait {
-    background-image: url('/assets/images/about.jpg');
+    background-image: url('/assets/images/about.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

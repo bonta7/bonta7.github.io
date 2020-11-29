@@ -14,7 +14,7 @@ exclude:
 image: 'assets/images/banner01.jpg'
 avatar: 'assets/images/banner01.jpg'
 slides:
-  - assets/images/slides01.jpg
+  - assets/images/slides01.png
 facebook:
 twitter:
 instagram:  
@@ -22,17 +22,18 @@ about:
   left: 그 것이 존재하던, 존재하지 않던<br />현재에 고정하여 아름다운 결과물을 만들어 냅니다.
   center: 우리는 공간에 남는 시간의 자극에 주목합니다.
   right: 당신이 원하는 시간과 공간을 연출합니다.
-service-item:
-  - image: assets/images/about_video_contents.png
-    text: Video Contents
-  - image: assets/images/about_viral.png
-    text: Viral ⋅ Branded
-  - image: assets/images/about_sns_contents.png
-    text: SNS Contents
-  - image: assets/images/about_sns_marketing.png
-    text: SNS Marketing
-  - image: assets/images/about_live_commerce.png
-    text: Live Commerce
+services:
+  title: 흔적에 대한 기록.
+  subtitle: 스테인드 바이는 소중한 순간을 기록합니다.<br />상상으로 담아놓은 미디어 콘텐츠를 모두 기록합니다.
+  items:
+    - COMMERCIAL FILM
+    - VIRAL FILM
+    - FASHION FILM
+    - MUSIC VIDEO
+    - MOVIE
+    - VR
+    - DRONE
+    - SOUND PRODUCT
 portfolio: |
   This is a multi-line string.  
   "special" metacharacters may  
