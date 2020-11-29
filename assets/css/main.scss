@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Oswald&family=Roboto&display=swap');
 @import "variables";
 @import "bootstrap/scss/bootstrap";
+@import "extends-spacing";
 
 .z-30 {
     z-index: 30;
@@ -37,8 +38,24 @@
     @include rfs(16);
 }
 
+.rfs-24 {
+    @include rfs(24);
+}
+
+.rfs-28 {
+    @include rfs(28);
+}
+
 .rfs-32 {
     @include rfs(32);
+}
+
+.rfs-48 {
+    @include rfs(48);
+}
+
+.rfs-64 {
+    @include rfs(64);
 }
 
 .rfs-96 {
@@ -77,8 +94,17 @@
     height: 1.5vh;
 }
 
+.h-200 {
+    height: 200% !important;
+}
+
 .flip-horizontal {
     transform: scale(-1,1);
+}
+
+.blend-difference {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 .navbar-brand > img {
@@ -86,7 +112,26 @@
     height: 3em;
 }
 
-#home .carousel-item > img {
+.cover-image {
     background-size: cover;
     object-fit: cover;
+}
+
+.text-dark-to-white-horizontal {
+    background: linear-gradient(to right, $dark 0%, $dark 50.1%, $white 50.1%, $white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-dark-to-white-vertical {
+    background: linear-gradient(to bottom, $dark 0%, $dark 50.1%, $white 50.1%, $white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#about .portrait {
+    background-image: url('/assets/images/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }

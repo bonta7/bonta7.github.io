@@ -1,0 +1,43 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $prop, $abbrev in (margin: m, padding: p) {
+      .#{$abbrev}#{$infix}-10 { #{$prop}: 6rem !important; }
+      .#{$abbrev}t#{$infix}-10,
+      .#{$abbrev}y#{$infix}-10 {
+        #{$prop}-top: 6rem !important;
+      }
+      .#{$abbrev}r#{$infix}-10,
+      .#{$abbrev}x#{$infix}-10 {
+        #{$prop}-right: 6rem !important;
+      }
+      .#{$abbrev}b#{$infix}-10,
+      .#{$abbrev}y#{$infix}-10 {
+        #{$prop}-bottom: 6rem !important;
+      }
+      .#{$abbrev}l#{$infix}-10,
+      .#{$abbrev}x#{$infix}-10 {
+        #{$prop}-left: 6rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-15 { #{$prop}: 9rem !important; }
+      .#{$abbrev}t#{$infix}-15,
+      .#{$abbrev}y#{$infix}-15 {
+        #{$prop}-top: 9rem !important;
+      }
+      .#{$abbrev}r#{$infix}-15,
+      .#{$abbrev}x#{$infix}-15 {
+        #{$prop}-right: 9rem !important;
+      }
+      .#{$abbrev}b#{$infix}-15,
+      .#{$abbrev}y#{$infix}-15 {
+        #{$prop}-bottom: 9rem !important;
+      }
+      .#{$abbrev}l#{$infix}-15,
+      .#{$abbrev}x#{$infix}-15 {
+        #{$prop}-left: 9rem !important;
+      }
+    }
+  }
+}

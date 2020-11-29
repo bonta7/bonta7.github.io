@@ -14,7 +14,7 @@
             {% assign count = 0 %}
             {% for slide in site.slides %}
                 <div class="carousel-item {% if count == 0 %}active{% endif %}">
-                    <img class="d-block w-100 vh-100" src="{{ slide }}" alt="" />
+                    <img class="d-block w-100 vh-100 cover-image" src="{{ slide }}" alt="" />
                 </div>
                 {% assign count = count | plus: 1 %}
             {% endfor %}

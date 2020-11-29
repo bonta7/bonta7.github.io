@@ -18,10 +18,10 @@ slides:
 facebook:
 twitter:
 instagram:  
-about: |
-  SNS와 Youtube 등 온라인 미디어 콘텐츠를 제작합니다.  
-  기획부터 촬영, 편집까지의 제작 전반의 역량을 갖춰 정확한 커뮤니케이션과  
-  빠르고 합리적인 콘텐츠를 만듭니다.
+about:
+  left: 그 것이 존재하던, 존재하지 않던<br />현재에 고정하여 아름다운 결과물을 만들어 냅니다.
+  center: 우리는 공간에 남는 시간의 자극에 주목합니다.
+  right: 당신이 원하는 시간과 공간을 연출합니다.
 service-item:
   - image: assets/images/about_video_contents.png
     text: Video Contents
