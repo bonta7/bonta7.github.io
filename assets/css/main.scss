@@ -1,0 +1,27 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Oswald&family=Roboto&display=swap');
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+.font-family-gothic {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.font-family-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-family-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-size-xlarge {
+    font-size: x-large;
+}
+
+.navbar-brand > img {
+    width: 4em;
+    height: 3em;
+}

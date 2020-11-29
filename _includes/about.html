@@ -1,0 +1,25 @@
+<section class="pt-8 min-vh-100 d-flex align-items-center" id='about'>
+    <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+            <div class="offset-lg-1 col-lg-4">
+                <h2 class='brand-image d-block mx-md-auto mx-lg-0'>{{ site.project }}</h2>
+                <p class="font-weight-normal text-center text-lg-left py-4-5">
+                    {{ site.about | newline_to_br }}
+                </p>
+                <div class="container">
+                    <ul class="row list-unstyled">
+                        {% for item in site.service-item %}
+                            <li class="col-md-4 {% cycle 'offset-md-2', '' %} offset-lg-0 col-lg-5 py-2">
+                                <img class="mr-2" src='{{ item.image }}' alt='{{ item.text }}' />
+                                {{ item.text }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="d-none d-lg-block offset-lg-1 col-lg-6">
+                <img class="w-100" src='/assets/images/about.png' alt='' />
+            </div>
+        </div>
+    </div>
+</section>

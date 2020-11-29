@@ -1,0 +1,69 @@
+title: 'stainedby'
+project: 'stainedby'
+telephone: (+82)10-7581-1003
+email: stainedby8363@gmail.com
+description: stainedby
+baseurl: ''
+url: 'https://bonta7.github.io'
+repository: bonta7/bonta7.github.io
+exclude: 
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock  
+  - README.md  
+image: 'assets/images/banner01.jpg'
+avatar: 'assets/images/banner01.jpg'
+slides:
+  - assets/images/banner01.jpg
+  - assets/images/banner02.jpg
+facebook:
+twitter:
+instagram:  
+about: |
+  SNS와 Youtube 등 온라인 미디어 콘텐츠를 제작합니다.  
+  기획부터 촬영, 편집까지의 제작 전반의 역량을 갖춰 정확한 커뮤니케이션과  
+  빠르고 합리적인 콘텐츠를 만듭니다.
+service-item:
+  - image: assets/images/about_video_contents.png
+    text: Video Contents
+  - image: assets/images/about_viral.png
+    text: Viral ⋅ Branded
+  - image: assets/images/about_sns_contents.png
+    text: SNS Contents
+  - image: assets/images/about_sns_marketing.png
+    text: SNS Marketing
+  - image: assets/images/about_live_commerce.png
+    text: Live Commerce
+portfolio: |
+  This is a multi-line string.  
+  "special" metacharacters may  
+  appear here. The extent of this string is  
+  indicated by indentation.   
+portfolio-item:
+  - image: assets/images/SK_Live_200901.JPG
+    link: https://mall.saucelive.net/broadcast/10771?sessionKey=3N0JMQP8z3dB/vwaLUV6nXIrX70dBDOTAUedIrNr+YG0KqpTVmCgKFXngS0Z09P8UEVgjQeQIjXXpOloF09CurpNStsPHOSLd7RCsh2WggjLWhc2664QxMTULpnA/l+0bl/+2QZIeJATz5rKp9CorKDTST0uN4NSZaadnTkwnWVatZx+zCzXUR3mOTJx9nfU&serviceId=skmagic
+    
+  - image: https://img.youtube.com/vi/fz50p2FZo0c/hqdefault.jpg
+    link: https://youtu.be/fz50p2FZo0c
+    
+  - image: https://img.youtube.com/vi/A3AURx-aYj8/hqdefault.jpg
+    link: https://youtu.be/A3AURx-aYj8     
+    
+  - image: assets/images/SK_live_show_0819.JPG
+    link: https://mall.saucelive.net/broadcast/9897?sessionKey=3N0JMQP8z3dB/vwaLUV6nXIrX70dBDOTAUedIrNr+YG0KqpTVmCgKFXngS0Z09P8UEVgjQeQIjXXpOloF09CurpNStsPHOSLd7RCsh2WggjLWhc2664QxMTULpnA/l+0bl/+2QZIeJATz5rKp9CorLu/wwxtvnwhzdAyxDdu6zSOMPO2tyM5Yyn36JkEiott&serviceId=skmagic    
+    
+  - image: https://img.youtube.com/vi/azu5oR1m62Q/hqdefault.jpg
+    link: https://youtu.be/azu5oR1m62Q
+    
+  - image: https://img.youtube.com/vi/YVhaikslh28/hqdefault.jpg
+    link: https://youtu.be/YVhaikslh28
+    
+  - image: https://img.youtube.com/vi/372yRcG-Sa4/hqdefault.jpg
+    link: https://youtu.be/372yRcG-Sa4
+    
+  - image: https://img.youtube.com/vi/P5tK8f3jKQs/hqdefault.jpg
+    link: https://youtu.be/P5tK8f3jKQs
+sass:
+  style: compressed
+  load_paths:
+    - _sass

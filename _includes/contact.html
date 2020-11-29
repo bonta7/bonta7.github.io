@@ -1,0 +1,22 @@
+<section class="min-vh-100 py-8" id="contact">
+    <h2 class="text-uppercase text-center pb-5 font-weight-bold">Contact</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-md-12">
+                <form action="mailto:{{ site.email }}" method="GET" enctype="text/plain">
+                    <div class="form-group">
+                        <label class="col-form-label text-center d-block" for="form-subject">Subject</label>
+                        <input type="text" name="subject" class="form-control" placeholder="" id="form-subject">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label text-center d-block" for="form-comments">Message</label>
+                        <textarea name="body" class="form-control" id="form-comments" rows="9" placeholder=""></textarea>
+                    </div> 
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Submit Mail</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

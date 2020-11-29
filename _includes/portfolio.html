@@ -1,0 +1,16 @@
+<section class="min-vh-100 bg-light py-8" id="portfolio">
+    <h2 class="text-uppercase text-center pb-5 font-weight-bold">Portfolio</h2>
+    <div class="container">
+        <div class="row">
+            {% for item in site.portfolio-item %}
+                <div class="col-4 col-md-3">
+                    <div class="card text-white bg-info mb-3">
+                        <a href="{{ item.link }}" data-toggle="lightbox" data-gallery="Portfolio">
+                            <div class="square-box" style="background-image:url('{{ item.image }}');"></div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
