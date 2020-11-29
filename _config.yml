@@ -14,8 +14,7 @@ exclude:
 image: 'assets/images/banner01.jpg'
 avatar: 'assets/images/banner01.jpg'
 slides:
-  - assets/images/banner01.jpg
-  - assets/images/banner02.jpg
+  - assets/images/slides01.jpg
 facebook:
 twitter:
 instagram:  

@@ -5,6 +5,10 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+.z-30 {
+    z-index: 30;
+}
+
 .font-family-gothic {
     font-family: 'Gothic A1', sans-serif;
 }
@@ -17,11 +21,72 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.font-size-1vh {
+    font-size: 1vh;
+}
+
+.font-size-1-5vh {
+    font-size: 1.5vh;
+}
+
 .font-size-xlarge {
     font-size: x-large;
+}
+
+.rfs-16 {
+    @include rfs(16);
+}
+
+.rfs-32 {
+    @include rfs(32);
+}
+
+.rfs-96 {
+    @include rfs(112);
+}
+
+.opacity-quarter {
+    opacity: 0.25;
+}
+
+.w-1em {
+    width: 1em;
+}
+
+.mw-5 {
+    max-width: 5%;
+}
+
+.mw-10 {
+    max-width: 10%;
+}
+
+.h-0-9em {
+    height: 0.9em;
+}
+
+.h-1em {
+    height: 1em;
+}
+
+.h-1vh {
+    height: 1vh;
+}
+
+.h-1-5vh {
+    height: 1.5vh;
+}
+
+.flip-horizontal {
+    transform: scale(-1,1);
 }
 
 .navbar-brand > img {
     width: 4em;
     height: 3em;
+}
+
+#home .carousel-item > img {
+    background-size: cover;
+    object-fit: cover;
 }
