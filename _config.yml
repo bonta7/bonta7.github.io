@@ -36,23 +36,23 @@ services:
     - DRONE
     - SOUND PRODUCT
 portfolio-item:
-  - image: https://img.youtube.com/vi/fz50p2FZo0c/hqdefault.jpg
-    link: https://youtu.be/fz50p2FZo0c
+  - image: https://img.youtube.com/vi/geYruQsxbQg/hqdefault.jpg
+    link: https://youtu.be/geYruQsxbQg
     
-  - image: https://img.youtube.com/vi/A3AURx-aYj8/hqdefault.jpg
-    link: https://youtu.be/A3AURx-aYj8     
+  - image: https://img.youtube.com/vi/_Gkbt5QBBm0/hqdefault.jpg
+    link: https://youtu.be/_Gkbt5QBBm0    
     
-  - image: https://img.youtube.com/vi/azu5oR1m62Q/hqdefault.jpg
-    link: https://youtu.be/azu5oR1m62Q
+  - image: https://img.youtube.com/vi/_QyP-MRnz1k/hqdefault.jpg
+    link: https://youtu.be/_QyP-MRnz1k
     
-  - image: https://img.youtube.com/vi/YVhaikslh28/hqdefault.jpg
-    link: https://youtu.be/YVhaikslh28
+  - image: https://img.youtube.com/vi/y_wZ2S5An0w/hqdefault.jpg
+    link: https://youtu.be/y_wZ2S5An0w
     
-  - image: https://img.youtube.com/vi/372yRcG-Sa4/hqdefault.jpg
-    link: https://youtu.be/372yRcG-Sa4
+  - image: https://img.youtube.com/vi/SCey8uTs6zY/hqdefault.jpg
+    link: https://youtu.be/SCey8uTs6zY
     
-  - image: https://img.youtube.com/vi/P5tK8f3jKQs/hqdefault.jpg
-    link: https://youtu.be/P5tK8f3jKQs
+  - image: https://img.youtube.com/vi/koPZwMhft7k/hqdefault.jpg
+    link: https://youtu.be/koPZwMhft7k
 sass:
   style: compressed
   load_paths:
