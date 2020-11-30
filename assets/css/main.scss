@@ -38,6 +38,10 @@
     @include rfs(16);
 }
 
+.rfs-20 {
+    @include rfs(20);
+}
+
 .rfs-24 {
     @include rfs(24);
 }
@@ -86,6 +90,10 @@
     max-width: 10%;
 }
 
+.vh-200 {
+    height: 200vh;
+}
+
 .h-0-9em {
     height: 0.9em;
 }
@@ -94,11 +102,11 @@
     height: 1em;
 }
 
-.h-1vh {
+.vh-1 {
     height: 1vh;
 }
 
-.h-1-5vh {
+.vh-1-5 {
     height: 1.5vh;
 }
 
@@ -142,4 +150,35 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.square-box {
+    @extend .d-inline-block;
+    @extend .w-100;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.square-box:after {
+    @extend .d-inline-block;
+    content: '';
+    padding-bottom: 100%;
+}
+
+#contact::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('/assets/images/cafe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.15;
+}
+
+.bg-black-quarter {
+    background: rgba(0, 0, 0, 0.25);
 }

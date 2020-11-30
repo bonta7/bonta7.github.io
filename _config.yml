@@ -40,17 +40,11 @@ portfolio: |
   appear here. The extent of this string is  
   indicated by indentation.   
 portfolio-item:
-  - image: assets/images/SK_Live_200901.JPG
-    link: https://mall.saucelive.net/broadcast/10771?sessionKey=3N0JMQP8z3dB/vwaLUV6nXIrX70dBDOTAUedIrNr+YG0KqpTVmCgKFXngS0Z09P8UEVgjQeQIjXXpOloF09CurpNStsPHOSLd7RCsh2WggjLWhc2664QxMTULpnA/l+0bl/+2QZIeJATz5rKp9CorKDTST0uN4NSZaadnTkwnWVatZx+zCzXUR3mOTJx9nfU&serviceId=skmagic
-    
   - image: https://img.youtube.com/vi/fz50p2FZo0c/hqdefault.jpg
     link: https://youtu.be/fz50p2FZo0c
     
   - image: https://img.youtube.com/vi/A3AURx-aYj8/hqdefault.jpg
     link: https://youtu.be/A3AURx-aYj8     
-    
-  - image: assets/images/SK_live_show_0819.JPG
-    link: https://mall.saucelive.net/broadcast/9897?sessionKey=3N0JMQP8z3dB/vwaLUV6nXIrX70dBDOTAUedIrNr+YG0KqpTVmCgKFXngS0Z09P8UEVgjQeQIjXXpOloF09CurpNStsPHOSLd7RCsh2WggjLWhc2664QxMTULpnA/l+0bl/+2QZIeJATz5rKp9CorLu/wwxtvnwhzdAyxDdu6zSOMPO2tyM5Yyn36JkEiott&serviceId=skmagic    
     
   - image: https://img.youtube.com/vi/azu5oR1m62Q/hqdefault.jpg
     link: https://youtu.be/azu5oR1m62Q

@@ -1,9 +1,15 @@
-<section class="min-vh-100 bg-light py-8" id="work">
-    <h2 class="text-uppercase text-center pb-5 font-weight-bold">Portfolio</h2>
+<section class="min-vh-100 py-5" id="work">
+    <h2 class="text-uppercase text-center pt-5 rfs-128 font-family-oswald text-white">
+        PORTFOLIO
+    </h2>
+    <p class='d-flex justify-content-center pb-5'>
+        <img src='/assets/images/bar.svg' class='vh-1-5' alt='' style='margin-right: -1px' />
+        <img src='/assets/images/bar.svg' class='vh-1-5 flip-horizontal' alt='' style='margin-left: -2px' />
+    </p>
     <div class="container">
         <div class="row">
             {% for item in site.portfolio-item %}
-                <div class="col-4 col-md-3">
+                <div class="col-6">
                     <div class="card text-white bg-info mb-3">
                         <a href="{{ item.link }}" data-toggle="lightbox" data-gallery="Portfolio">
                             <div class="square-box" style="background-image:url('{{ item.image }}');"></div>

@@ -1,21 +1,26 @@
-<section class="min-vh-100 py-8" id="contact">
-    <h2 class="text-uppercase text-center pb-5 font-weight-bold">Contact</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3 col-md-12">
-                <form action="mailto:{{ site.email }}" method="GET" enctype="text/plain">
+<section id="contact" class="position-relative">
+    <div class="container-fluid">
+        <div class="row font-family-roboto text-white">
+            <div class="vh-100 col-12 col-lg-6 d-flex align-items-center">
+                <h2 class="rfs-64">stainedby CONTACT</h2>
+            </div>
+            <div class="vh-100 py-5 px-lg-5 col-12 col-lg-6">
+                <form class="m-lg-5 p-lg-5 bg-black-quarter" action="mailto:{{ site.email }}" method="GET" enctype="text/plain">
                     <div class="form-group">
-                        <label class="col-form-label text-center d-block" for="form-subject">Subject</label>
+                        <label class="col-form-label d-block rfs-32" for="form-subject">Subject</label>
                         <input type="text" name="subject" class="form-control" placeholder="" id="form-subject">
                     </div>
                     <div class="form-group">
-                        <label class="col-form-label text-center d-block" for="form-comments">Message</label>
+                        <label class="col-form-label d-block rfs-32" for="form-comments">Message</label>
                         <textarea name="body" class="form-control" id="form-comments" rows="9" placeholder=""></textarea>
                     </div> 
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-primary">Submit Mail</button>
-                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit Mail</button>
                 </form>
+            </div>
+            <div class="col-12 bg-black-quarter d-flex justify-content-between">
+                <p>stainedby</p>
+                <p>copyright</p>
+                <p>call</p>
             </div>
         </div>
     </div>
