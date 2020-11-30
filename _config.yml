@@ -2,6 +2,7 @@ title: 'stainedby'
 project: 'stainedby'
 telephone: (+82)10-7581-1003
 email: stainedby8363@gmail.com
+address: 20-5, Dogok-ro 3-gil, Gangnam-gu, Seoul
 description: stainedby
 baseurl: ''
 url: 'https://bonta7.github.io'
@@ -34,11 +35,6 @@ services:
     - VR
     - DRONE
     - SOUND PRODUCT
-portfolio: |
-  This is a multi-line string.  
-  "special" metacharacters may  
-  appear here. The extent of this string is  
-  indicated by indentation.   
 portfolio-item:
   - image: https://img.youtube.com/vi/fz50p2FZo0c/hqdefault.jpg
     link: https://youtu.be/fz50p2FZo0c

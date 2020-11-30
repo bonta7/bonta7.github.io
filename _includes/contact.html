@@ -17,10 +17,24 @@
                     <button type="submit" class="btn btn-secondary">Submit Mail</button>
                 </form>
             </div>
-            <div class="col-12 bg-black-quarter d-flex justify-content-between">
-                <p>stainedby</p>
-                <p>copyright</p>
-                <p>call</p>
+            <div class="col-12 border border-danger pt-4 bg-black-quarter">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 rfs-32 align-middle pb-4 py-lg-0 col-lg-6">
+                            <img src="/assets/images/logo.svg" alt="" class="h-1em" style="margin-right: -0.5em">                            
+                            {{ site.project }}
+                        </div>
+                        <div class="col-12 col-lg-6 rfs-16 text-right">
+                            <strong><a href="tel:{{ site.telephone }}" class="text-white">{{ site.telephone }}</a></strong><br />
+                            <a href="mailto:{{ site.email }}" class="text-white">{{ site.email }}</a><br />
+                            {{ site.address }}<br />
+                            <img src='/assets/images/marks.svg' alt='' class='h-1em' />
+                        </div>
+                        <div class="col-12 py-2 rfs-8 text-center">
+                            2020 by stainedby CORP. ALL RIGHT RESERVED
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

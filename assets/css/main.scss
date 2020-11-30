@@ -34,6 +34,10 @@
     font-size: x-large;
 }
 
+.rfs-8 {
+    @include rfs(8);
+}
+
 .rfs-16 {
     @include rfs(16);
 }
